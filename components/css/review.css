@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+#the-fridge-store{
+    background-image: url(https://img.freepik.com/premium-photo/orange-powder-explosion-black-background-orange-color-dust-splash_36326-3687.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+/*Navbari(Menuja)*/
+
+.ek-header .navbar{
+    border-bottom: 3.5px solid #fff;
+}
+
+.ek-header .navbar img{
+    margin-left: 50px;
+}
+
+.ek-header .navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+.ek-header .navbar .navbar-nav .nav-link{
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.ek-header .navbar .navbar-nav .nav-link:hover{
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.ek-header .navbar .navbar-nav .user-icon {
+    margin-right: 50px;
+}
+
+.ek-header .navbar .navbar-nav .user-icon a i {
+    color: #ffffff;
+}
+
+
+.ek-header .navbar .navbar-nav .user-icon a:hover i {
+    color: #ff5e00;
+}
+
+.ek-header .navbar .navbar-nav .dropdown-menu a{
+    background-color: #000000; 
+}
+
+.ek-header .navbar .navbar-nav .dropdown-menu {
+    background-color: #000000; 
+}
+
+.ek-header .navbar .navbar-nav .dropdown-menu a{
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.ek-header .navbar .navbar-nav .dropdown-menu a:hover{
+    color: #ff5e00;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/*Review*/
+
+.container h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+
+
+.container table{
+    border: 1px solid black;
+    margin-bottom: 193px;
+}

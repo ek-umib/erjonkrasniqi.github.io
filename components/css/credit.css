@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+.ek-payment{
+    background-color: rgba(0,0,0,0.4);
+}
+
+select{
+    text-align: center;
+}
+
+.ek-cc input,label{
+    margin: 5px 0;
+}
+.ek-cc input{
+    text-align: center;
+}
+
+.ek-payment{
+    height: calc(100vh + 120px);
+}
+
+.ek-cc .ek-buttoni{
+    border: 1px solid #fff;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #000;
+}
+
+@media screen and (max-width:768px){
+    .ek-payment{
+        height: auto;
+    }
+}

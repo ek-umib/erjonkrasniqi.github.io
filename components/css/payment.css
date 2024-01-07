@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.ek-payment{
+    margin-top: 125px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.ek-payment i{
+    color: #008000;
+    font-size: 125px;
+    display: flex;
+    justify-content: center;
+}
+
+.ek-payment h5 i{
+    color: #fff;
+    font-size: 100%;
+    margin: 35px 10px 0 10px;
+    display: inline-block
+}
+
+.ek-payment a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.ek-payment a h5:hover{
+    transform: scale(1.1)                           ;
+}

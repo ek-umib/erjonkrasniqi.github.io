@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.ek-login{
+    margin-top: 125px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.ek-login i{
+    color: #008000;
+    font-size: 125px;
+    display: flex;
+    justify-content: center;
+}
+
+.ek-login h5 i{
+    color: #fff;
+    font-size: 100%;
+    margin: 35px 10px 0 10px;
+    display: inline-block
+}
+
+.ek-login a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.ek-login a h5:hover{
+    transform: scale(1.1)                           ;
+}
