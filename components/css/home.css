@@ -287,5 +287,8 @@ transform: scale(1.15);
         width: 0;
         height: 0;
     }
+    .jumbotron .col-md-6:first-child p{
+        width:auto;
+    }
 }
   
