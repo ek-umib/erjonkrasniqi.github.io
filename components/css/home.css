@@ -93,7 +93,6 @@ html{
 }
 
 .jumbotron .col-md-6:first-child p{
-    width: 600px;
     text-align: justify;
     line-height: 21px;
     position: relative;
